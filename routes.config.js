@@ -17,7 +17,7 @@ router.post('/contact', (req, res, err) => {
         service: 'gmail', // upgrade later with STARTTLS
         auth: {
           user: "devredhat@gmail.com",
-          pass: "cosak1997",
+          pass: "uhyqvphnqyhurgoo",
         },
       });
 
