@@ -13,7 +13,7 @@ const cors = require('cors')
 router.post('/contact', (req, res, err) => {
 
     const transporter = nodemailer.createTransport({
-        host: "ibcard.info",
+        host: "mail.ibcard.info",
         port: 587,
         secure: false, // upgrade later with STARTTLS
         auth: {
