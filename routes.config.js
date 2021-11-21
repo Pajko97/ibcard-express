@@ -13,12 +13,11 @@ const cors = require('cors')
 router.post('/contact', (req, res, err) => {
 
     const transporter = nodemailer.createTransport({
-        host: "smtp.ibcard.info",
-        port: 587,
-        secure: false, // upgrade later with STARTTLS
+        host: "smtp.gmail.com",
+        service: 'gmail', // upgrade later with STARTTLS
         auth: {
-          user: "kontakt@ibcard.info",
-          pass: "h7ax7kxzHloZ",
+          user: "devredhat@gmail.com",
+          pass: "cosak1997",
         },
       });
 
