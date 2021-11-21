@@ -15,8 +15,7 @@ router.post('/contact', (req, res, err) => {
     const transporter = nodemailer.createTransport({
         host: "narativ.agency",
         port: 587,
-        
-        secure: true, // upgrade later with STARTTLS
+        secure: false, // upgrade later with STARTTLS
         auth: {
           user: "kontakt@ibcard.info",
           pass: "h7ax7kxzHloZ",
