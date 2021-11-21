@@ -24,7 +24,6 @@ router.post('/contact', (req, res, err) => {
         
     let mailOptions = {
         from: 'bezveze@gmail.com',
-        
         to: 'devredhat@gmail.com',
         subject: 'Sandro car',
         text: `

@@ -8,11 +8,6 @@ const Order = new Schema({
         required: true
     },
 
-    last_name: {
-        type: String,
-        required: true
-    },
-
     contact_phone: {
         type: Number,
         required: true
