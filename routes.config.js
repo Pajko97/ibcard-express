@@ -13,7 +13,7 @@ const cors = require('cors')
 router.post('/contact', (req, res, err) => {
 
     const transporter = nodemailer.createTransport({
-        host: "mail.ibcard.info",
+        host: "smtp.ibcard.info",
         port: 587,
         secure: false, // upgrade later with STARTTLS
         auth: {
@@ -26,7 +26,7 @@ router.post('/contact', (req, res, err) => {
     let mailOptions = {
         from: 'bezveze@gmail.com',
         
-        to: 'kontakt@ibcard.info',
+        to: 'devredhat@gmail.com',
         subject: 'Sandro car',
         text: `
                Ime :${req.body.name} 
